@@ -1,0 +1,68 @@
+/********** AJUSTES DE PANTALLA **********/
+
+@media (max-width: 768px) {
+    /* ENCABEZADO */
+  
+    .tamlogo {
+      width: 100px;
+    }
+    
+    /* CONTACTO */
+    /* MAPA */
+  
+    .mapa {
+      max-width: 450px;
+      height: 300px;
+    }
+  
+    /* FOOTER */
+  
+    footer {
+      display: block;
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    /* ENCABEZADO */
+  
+    .tamlogo {
+      width: 80px;
+    }
+
+    .logoMarcas {
+      display: none;
+    }
+
+    //CARROUSEL
+    .carousel-item {
+      div {
+        h1 {
+          font-size: 1rem;
+        }
+      }
+      
+    
+    
+    }
+  
+    /* CONTACTO */
+    /* MAPA */
+  
+    .mapa {
+      max-width: 250px;
+    }
+  
+    /* FOOTER */
+  
+    footer {
+      font-size: 10px;
+      .mediosDePago {
+        img {
+            max-width: 250px;
+        }
+    }
+    }
+
+    
+  }
