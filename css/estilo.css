@@ -74,6 +74,32 @@
   background-color: #2471d6;
   border-radius: 8px;
 }
+.carousel-item div h2 {
+  color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #F94539;
+  border-radius: 8px;
+  text-transform: uppercase;
+  animation-delay: 0.5s;
+}
+.carousel-item div ul {
+  margin-top: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1rem;
+}
+.carousel-item div ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #FF8112;
+  color: #fafafa;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 2px;
+  animation-delay: 1s;
+}
 
 /* SOBRE NOSOTROS */
 .info {
@@ -134,6 +160,10 @@ section .frame .details {
 section .frame:hover .details {
   transform: translate(-50%, -50%) rotateY(0deg);
   opacity: 1;
+}
+section h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 /* SECTION SERVICIOS*/
@@ -271,6 +301,12 @@ footer .mediosDePago img {
   .tamlogo {
     width: 100px;
   }
+  .carousel-item div h2 {
+    font-size: 1rem;
+  }
+  .carousel-item div ul li {
+    font-size: 12px;
+  }
   /* CONTACTO */
   /* MAPA */
   .mapa {
@@ -293,6 +329,12 @@ footer .mediosDePago img {
   }
   .carousel-item div h1 {
     font-size: 1rem;
+  }
+  .carousel-item div h2 {
+    font-size: 12px;
+  }
+  .carousel-item div ul li {
+    font-size: 8px;
   }
   /* CONTACTO */
   /* MAPA */
