@@ -3,9 +3,6 @@
 .carousel-item {
   img {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
   }
   
@@ -15,6 +12,7 @@
       left: 50%;
       transform: translate(-50%,-50%);
       text-align: center;
+      
     h1 {
       color: $color-blanco;
       animation-delay: 0.5s;
@@ -22,11 +20,10 @@
       background-color: #2471d6;
       border-radius: 8px;
     }
-
-    h2{
+    .segundoSlide{
       color: $color-blanco;
-      font-family: Arial, Helvetica, sans-serif;
       background-color: #F94539;
+      font-family: Arial, Helvetica, sans-serif;
       border-radius: 8px;
       text-transform: uppercase;
       animation-delay: 0.5s;
@@ -52,7 +49,15 @@
     }
   }
   
+  .tercerSlide{
+    color: $color-blanco;
+    background: linear-gradient(#da81cf, #a13c94);
+    font-family: Agbalumo;
+    border-radius: 4px;
+    text-transform: uppercase;
+    animation-delay: 0.5s;
 
+  }
 
 }
 

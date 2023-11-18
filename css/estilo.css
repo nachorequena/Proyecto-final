@@ -55,9 +55,6 @@
 
 .carousel-item img {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   text-align: center;
 }
 .carousel-item div {
@@ -74,10 +71,10 @@
   background-color: #2471d6;
   border-radius: 8px;
 }
-.carousel-item div h2 {
+.carousel-item div .segundoSlide {
   color: #fafafa;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #F94539;
+  font-family: Arial, Helvetica, sans-serif;
   border-radius: 8px;
   text-transform: uppercase;
   animation-delay: 0.5s;
@@ -99,6 +96,14 @@
   font-weight: bold;
   border-radius: 2px;
   animation-delay: 1s;
+}
+.carousel-item .tercerSlide {
+  color: #fafafa;
+  background: linear-gradient(#da81cf, #a13c94);
+  font-family: Agbalumo;
+  border-radius: 4px;
+  text-transform: uppercase;
+  animation-delay: 0.5s;
 }
 
 /* SOBRE NOSOTROS */
@@ -244,6 +249,7 @@ section h3 {
   display: flex;
   align-items: center;
   max-width: 100%;
+  margin: auto;
 }
 
 /* FOOTER */
@@ -347,6 +353,9 @@ footer .mediosDePago img {
   }
   footer .mediosDePago img {
     max-width: 250px;
+  }
+  .textoResponsive {
+    font-size: 12px;
   }
 }
 
