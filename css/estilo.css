@@ -86,11 +86,12 @@
   justify-content: space-around;
   align-items: center;
   font-size: 1rem;
+  background-color: #FF8112;
+  animation-delay: 0.5s;
 }
 .carousel-item div ul li {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: #FF8112;
   color: #fafafa;
   text-transform: uppercase;
   font-weight: bold;
@@ -353,9 +354,6 @@ footer .mediosDePago img {
   }
   footer .mediosDePago img {
     max-width: 250px;
-  }
-  .textoResponsive {
-    font-size: 12px;
   }
 }
 
