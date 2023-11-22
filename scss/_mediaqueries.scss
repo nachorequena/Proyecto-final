@@ -1,90 +1,94 @@
 /********** AJUSTES DE PANTALLA **********/
 
 @media (max-width: 768px) {
-    /* ENCABEZADO */
-  
-    .tamlogo {
-      width: 100px;
-    }
-    
-    //CARROUSEL
-    .carousel-item {
-      div {
-        h2 {
-          font-size: 1rem;
-        }
-        ul li{
-          font-size: 12px;
-        }
-      }
-      
-      .logoMarcas {
-        display: none;
-      }
-    
-    }
-    /* CONTACTO */
-    /* MAPA */
-  
-    .mapa {
-      max-width: 450px;
-      height: 300px;
-    }
-  
-    /* FOOTER */
-  
-    footer {
-      display: block;
-      font-size: 15px;
-    }
-  }
-  
-  @media (max-width: 500px) {
-    /* ENCABEZADO */
-  
-    .tamlogo {
-      width: 80px;
-    }
+  /* ENCABEZADO */
 
-
-    //CARROUSEL
-    .carousel-item {
-      div {
-        h1 {
-          font-size: 1rem;
-        }
-        h2 {
-          font-size: 12px;
-        }
-        ul li{
-          font-size: 8px;
-
-        }
-      }
-      
-    
-    
-    }
-
-  
-    /* CONTACTO */
-    /* MAPA */
-  
-    .mapa {
-      max-width: 250px;
-    }
-  
-    /* FOOTER */
-  
-    footer {
-      font-size: 10px;
-      .mediosDePago {
-        img {
-            max-width: 250px;
-        }
-    }
-    }
-    
+  .tamlogo {
+    width: 100px;
   }
 
- 
+  //CARROUSEL
+  .carousel-item {
+    div {
+      h2 {
+        font-size: 1rem;
+      }
+
+      ul li {
+        font-size: 12px;
+      }
+    }
+
+  }
+
+  .logoMarcas {
+    display: none;
+  }
+
+  /* CONTACTO */
+  /* MAPA */
+
+  .mapa {
+    max-width: 450px;
+    height: 300px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    display: block;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* ENCABEZADO */
+
+  .tamlogo {
+    width: 80px;
+  }
+
+
+  //CARROUSEL
+  .carousel-item {
+    div {
+      h1 {
+        font-size: 1rem;
+      }
+
+      h2 {
+        font-size: 12px;
+      }
+
+      ul li {
+        font-size: 8px;
+
+      }
+    }
+
+
+
+  }
+
+
+
+  /* CONTACTO */
+  /* MAPA */
+
+  .mapa {
+    max-width: 250px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    font-size: 10px;
+
+    .mediosDePago {
+      img {
+        max-width: 250px;
+      }
+    }
+  }
+
+}
