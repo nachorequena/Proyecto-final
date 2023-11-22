@@ -314,6 +314,9 @@ footer .mediosDePago img {
   .carousel-item div ul li {
     font-size: 12px;
   }
+  .carousel-item .logoMarcas {
+    display: none;
+  }
   /* CONTACTO */
   /* MAPA */
   .mapa {
@@ -330,9 +333,6 @@ footer .mediosDePago img {
   /* ENCABEZADO */
   .tamlogo {
     width: 80px;
-  }
-  .logoMarcas {
-    display: none;
   }
   .carousel-item div h1 {
     font-size: 1rem;
